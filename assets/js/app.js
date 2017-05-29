@@ -56,7 +56,7 @@ function initMap() {
         tarifa.innerHTML = "S/. " + parseInt(distancia * 1.75);
         directionsDisplay.setDirections(response);
       }else{
-        window.alert('Ruta no foud');
+        window.alert('Ruta no found');
         // handleLocationError(false, infoWindow, map.getCenter());
       }
     });
@@ -64,8 +64,8 @@ function initMap() {
   }
 
 infoWindow = new google.maps.InfoWindow;
-// window.addEventListener('load',buscar);
-// document.getElementById('calcular').addEventListener('click',calcRoute);
+window.addEventListener('load',buscar);
+document.getElementById('calcular').addEventListener('click',calcRoute);
 
 
 }

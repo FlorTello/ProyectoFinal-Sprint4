@@ -80,6 +80,7 @@ h3{
 .form-control{
   background-color: transparent;
   border-color: #fff;
+  color: #fff;
 }
 .form-control::placeholder{
   color: #fff;
