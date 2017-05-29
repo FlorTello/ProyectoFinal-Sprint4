@@ -31,9 +31,23 @@ a{
   justify-content: flex-end;
   align-items: center;
 }
+.section-info{
+  position: relative;
+  background-image: url(../images/conduce.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;;
+}
 .section-tarifas,
-.div-info{
+.div-info,
+.btn-warning{
   background-color: #F7B617;
+}
+.div-information{
+  background-color: #000;
+  opacity: .7;
+  height: 100%;
+  padding-top: 150px;
 }
 .form-control{
   background-color: transparent;
