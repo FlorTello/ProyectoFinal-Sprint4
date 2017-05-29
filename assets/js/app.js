@@ -48,7 +48,7 @@ function initMap() {
     directionsService.route(request, function(response, status) {
       console.log(response);
       if(status === 'OK'){
-        var distancia = parseInt(((response.routes[0].legs[0].distance.text.replace("km","")).replace(",",".")));
+        var distancia = parseInt(((response.routes[0].legs[0].distance.text.replace("km","")).replace(",","")));
         console.log(response.routes[0].legs[0].distance);
         tarifa.classList.remove('none');
         if(distancia * 1.75 < 4){
