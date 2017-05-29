@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
   /*box-sizing: border-box;*/
+  font-family: 'Open Sans', sans-serif;
+}
+.btn,
+h3{
+  font-weight: bold;
 }
 header nav{
   height: 70px;
@@ -44,7 +49,7 @@ a{
   background-image: url(../images/conduce.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;;
+  height: 70vh;;
 }
 .section-tarifas,
 .div-hero,
@@ -52,14 +57,21 @@ a{
 .section-info{
   background-color: #F7B617;
 }
+.div-hero,
+.div-information,
+.section-info,
+footer,
+.btn-default,
+h3{
+  font-family: 'Raleway', sans-serif;
+}
+
 .div-information{
-  background-color: #000;
-  opacity: .7;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
-  padding-top: 150px;
 }
 .div-celular{
-  height: 45vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
@@ -85,6 +97,7 @@ a{
 }
 footer{
   background-color: #2B2B2B;
+  line-height: 40px;
 }
 footer .redes-sociales{
 }
@@ -100,6 +113,14 @@ div#map{
  }
  .section-header{
    background-position: center;
+ }
+ .div-celular{
+   text-align: center;
+   height: 45vh;
+   background-position: bottom;
+ }
+ .section-conducir{
+   height: 50vh;;
  }
 }
 @media (min-width: 768px){
