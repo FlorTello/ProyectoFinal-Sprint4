@@ -48,7 +48,8 @@ function initMap() {
     directionsService.route(request, function(response, status) {
       console.log(response);
       if(status === 'OK'){
-        var distancia = Number((response.routes[0].legs[0].distance.text.replace("km","")).replace(",","."));
+        var distancia = parseInt(((response.routes[0].legs[0].distance.text.replace("km","")).replace(",",".")));
+        console.log(response.routes[0].legs[0].distance);
         tarifa.classList.remove('none');
         if(distancia * 1.75 < 4){
           tarifa.innerHTML = "S/. 4";
@@ -57,7 +58,6 @@ function initMap() {
         directionsDisplay.setDirections(response);
       }else{
         window.alert('Ruta no found');
-        // handleLocationError(false, infoWindow, map.getCenter());
       }
     });
     directionsDisplay.setMap(map);
