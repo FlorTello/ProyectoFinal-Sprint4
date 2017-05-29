@@ -24,6 +24,27 @@ a{
   background-position: bottom;
   height: 90vh;;
 }
+.section-tarifas{
+  background-color: #F7B617;
+}
+.form-control{
+  background-color: transparent;
+  border-color: #fff;
+}
+.form-control::placeholder{
+  color: #fff;
+}
+.input-group.input-group-unstyled input.form-control {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.input-group-unstyled .input-group-addon {
+    /*border-radius:4px;*/
+    border: 0px;
+    background-color: transparent;
+    color: #fff;
+}
 footer{
   background-color: #2B2B2B;
 }
