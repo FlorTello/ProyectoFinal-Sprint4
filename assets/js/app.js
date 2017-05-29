@@ -64,8 +64,8 @@ function initMap() {
   }
 
 infoWindow = new google.maps.InfoWindow;
-window.addEventListener('load',buscar);
-document.getElementById('calcular').addEventListener('click',calcRoute);
+// window.addEventListener('load',buscar);
+// document.getElementById('calcular').addEventListener('click',calcRoute);
 
 
 }

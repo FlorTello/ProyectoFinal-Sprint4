@@ -9,6 +9,10 @@ header nav{
 .color-white{
   color: #fff;
 }
+.section{
+  padding-top: 55px;
+  padding-bottom: 15px;
+}
 a{
   vertical-align: middle;
   color: #343434;
@@ -17,14 +21,18 @@ a{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.section-header{
+.section-hero{
   position: relative;
   background-image: url(../images/taxi.jpg);
   background-size: cover;
   background-position: bottom;
   height: 90vh;;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.section-tarifas{
+.section-tarifas,
+.div-info{
   background-color: #F7B617;
 }
 .form-control{
