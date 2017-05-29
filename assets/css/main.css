@@ -6,6 +6,9 @@
 header nav{
   height: 70px;
 }
+.color-white{
+  color: #fff;
+}
 a{
   vertical-align: middle;
   color: #343434;
@@ -21,8 +24,10 @@ a{
   background-position: bottom;
   height: 90vh;;
 }
-.dropdown-menu{
-  width: 100%;
+footer{
+  background-color: #2B2B2B;
+}
+footer .redes-sociales{
 }
 div#map{
   width: 100%;
