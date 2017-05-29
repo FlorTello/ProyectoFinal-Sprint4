@@ -6,6 +6,9 @@
 header nav{
   height: 70px;
 }
+.pd-all{
+  padding: 30px;
+}
 .color-white{
   color: #fff;
 }
@@ -21,6 +24,11 @@ a{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.border-white{
+  border: solid #fff 0.5px;
+  border-top: solid #fff 1.5px;
+  padding: 10px;
+}
 .section-hero{
   position: relative;
   background-image: url(../images/taxi.jpg);
@@ -31,7 +39,7 @@ a{
   justify-content: flex-end;
   align-items: center;
 }
-.section-info{
+.section-conducir{
   position: relative;
   background-image: url(../images/conduce.jpg);
   background-size: cover;
@@ -39,8 +47,9 @@ a{
   height: 90vh;;
 }
 .section-tarifas,
-.div-info,
-.btn-warning{
+.div-hero,
+.btn-warning,
+.section-info{
   background-color: #F7B617;
 }
 .div-information{
@@ -48,6 +57,13 @@ a{
   opacity: .7;
   height: 100%;
   padding-top: 150px;
+}
+.div-celular{
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-image: url(../images/celular.png);
 }
 .form-control{
   background-color: transparent;
